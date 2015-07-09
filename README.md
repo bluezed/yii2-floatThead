@@ -1,4 +1,4 @@
-yii2-floatThead
+yii2-float-thead
 =====================
 This is a Yii 2 wrapper for [jquery.floatThead](http://mkoryak.github.io/floatThead/) a floating/locked/sticky/fixed table header plugin that requires no special CSS and supports window and overflow scrolling.
 
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist bluezed/yii2-floatThead "*"
+php composer.phar require --prefer-dist bluezed/yii2-float-thead "*"
 ```
 
 or add
 
 ```
-"bluezed/yii2-floatThead": "*"
+"bluezed/yii2-float-thead": "*"
 ```
 
 to the require section of your `composer.json` file.
