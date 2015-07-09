@@ -38,6 +38,7 @@ On your view file.
         <td>Data2</td>
     </tr>
 </table>
+
 <?php
 \bluezed\floatThead\FloatThead::widget(
     [
