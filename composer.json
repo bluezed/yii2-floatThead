@@ -1,25 +1,25 @@
 {
-	"name": "bluezed/yii2-float-thead",
-	"description": "This is a Yii 2 wrapper for [jquery.floatThead](http://mkoryak.github.io/floatThead/) a floating/locked/sticky/fixed table header plugin that requires no special CSS and supports window and overflow scrolling.",
-	"keywords": ["yii2", "extension", "float", "table", "header", "thead"],
-	"type": "yii2-extension",
-	"license": "BSD-3-Clause",
-	"support": {
-		"issues": "https://github.com/bluezed/yii2-floatThead/issues",
-		"wiki": "https://github.com/bluezed/yii2-floatThead/wiki/",
-		"source": "https://github.com/bluezed/yii2-floatThead"
-	},
-	"authors": [
-		{
-			"name": "Thomas Geppert",
-			"email": "bluezed.apps@gmail.com"
-		}
-	],
-	"require": {
-		"yiisoft/yii2": "*",
-		"bower-asset/floatThead": "*"
-	},
-	"autoload": {
-		"psr-4": { "bluezed\\floatThead\\": "" }
-	}
+    "name": "bluezed/yii2-float-thead",
+    "description": "This is a Yii 2 wrapper for jquery.floatThead a floating/locked/sticky/fixed table header plugin that requires no special CSS and supports window and overflow scrolling.",
+    "keywords": ["yii2", "extension", "float", "table", "header", "thead"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/bluezed/yii2-floatThead/issues",
+        "wiki": "https://github.com/bluezed/yii2-floatThead/wiki/",
+        "source": "https://github.com/bluezed/yii2-floatThead"
+    },
+    "authors": [
+        {
+            "name": "Thomas Geppert",
+            "email": "bluezed.apps@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/floatThead": "*"
+    },
+    "autoload": {
+        "psr-4": { "bluezed\\floatThead\\": "" }
+    }
 }

@@ -28,26 +28,29 @@ How to use
 On your view file.
 
 ```php
-
 <table id="myTable">
-	<tr>
-		<th>Col1</th>
-		<th>Col2</th>
-	</tr>
-	<tr>
-		<td>Data1</td>
-		<td>Data2</td>
-	</tr>
+    <tr>
+        <th>Col1</th>
+        <th>Col2</th>
+    </tr>
+    <tr>
+        <td>Data1</td>
+        <td>Data2</td>
+    </tr>
 </table>
 <?php
 \bluezed\floatThead\FloatThead::widget(
-	[
-		'tableId' => 'myTable', 
-		'options' => [
-			'scrollingTop'=>'50'
-		]
-	]
+    [
+        'tableId' => 'myTable', 
+        'options' => [
+            'scrollingTop'=>'50'
+        ]
+    ]
 );
 ?>
+```
 
+If you only want to register the Assets without directly applying the plugin to a table you can use the this command:
+```php
+\bluezed\floatThead\FloatThead::widget(['registerOnly'=>true]);
 ```

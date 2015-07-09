@@ -18,21 +18,21 @@ use yii\base\Widget;
  */
 class FloatTheadWidget extends Widget
 {
-	/**
-	 * @var string - ID of the table that floatThead should be applied to
-	 */
-	public $tableId;
-	
+    /**
+     * @var string - ID of the table that floatThead should be applied to
+     */
+    public $tableId;
+    
     /**
      * @var array - Options that will be passed on to the plugin
      */
     public $options = [];
-	
-	/**
-	 * @var bool - Only registers the assets but will not apply the plugin to any table.
-	 *				NOTE: If this is used then the tableId and options have no effect!
-	 */
-	public $registerOnly = false;
+    
+    /**
+     * @var bool - Only registers the assets but will not apply the plugin to any table.
+     *              NOTE: If this is used then the tableId and options have no effect!
+     */
+    public $registerOnly = false;
 
     /**
      * @inheritdoc
@@ -49,10 +49,10 @@ class FloatTheadWidget extends Widget
     public function registerAssets()
     {
         $view = $this->getView();
-		FloatTheadAsset::register($view);
-		if (!$this->registerOnly) {
-			$options = Json::encode($this->options);
-			$view->registerJs('$("#'.$this->tableId.'").floatThead(' .$options .');', $view::POS_READY);
-		}
+        FloatTheadAsset::register($view);
+        if (!$this->registerOnly) {
+            $options = Json::encode($this->options);
+            $view->registerJs('$("#'.$this->tableId.'").floatThead(' .$options .');', $view::POS_READY);
+        }
     }
 }
