@@ -40,7 +40,14 @@ On your view file.
 	</tr>
 </table>
 <?php
-\bluezed\floatThead\FloatThead::widget(['tableId'=>'myTable']);
+\bluezed\floatThead\FloatThead::widget(
+	[
+		'tableId' => 'myTable', 
+		'options' => [
+			'scrollingTop'=>'50'
+		]
+	]
+);
 ?>
 
 ```
