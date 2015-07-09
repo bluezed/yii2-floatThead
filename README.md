@@ -1,4 +1,4 @@
-yii2-float-thead
+yii2-floatThead
 =====================
 This is a Yii 2 wrapper for [jquery.floatThead](http://mkoryak.github.io/floatThead/) a floating/locked/sticky/fixed table header plugin that requires no special CSS and supports window and overflow scrolling.
 
