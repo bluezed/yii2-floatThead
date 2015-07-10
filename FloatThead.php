@@ -16,7 +16,7 @@ use yii\base\Widget;
  *
  * @author Thomas Geppert <bluezed.apps@gmail.com>
  */
-class FloatTheadWidget extends Widget
+class FloatThead extends Widget
 {
     /**
      * @var string - ID of the table that floatThead should be applied to
