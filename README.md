@@ -25,7 +25,7 @@ to the require section of your `composer.json` file.
 How to use
 ----------
 
-On your view file.
+In your view file.
 
 ```php
 <table id="myTable">
