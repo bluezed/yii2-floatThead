@@ -51,7 +51,7 @@ In your view file.
 ?>
 ```
 
-If you only want to register the Assets without directly applying the plugin to a table you can use the this command:
+If you only want to register the Assets without directly applying the plugin to a table you can use this command:
 ```php
 \bluezed\floatThead\FloatThead::widget(['registerOnly'=>true]);
 ```
