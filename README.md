@@ -44,7 +44,7 @@ In your view file.
     [
         'tableId' => 'myTable', 
         'options' => [
-            'scrollingTop'=>'50'
+            'top'=>'50'
         ]
     ]
 );
