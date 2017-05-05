@@ -16,7 +16,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/floatThead": "1.4.1"
+        "bower-asset/floatThead": "*"
     },
     "autoload": {
         "psr-4": { "bluezed\\floatThead\\": "" }
