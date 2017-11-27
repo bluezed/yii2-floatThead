@@ -16,7 +16,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "npm-asset/floatthead": "*"
+        "bower-asset/floatthead": "*"
     },
     "autoload": {
         "psr-4": { "bluezed\\floatThead\\": "" }
