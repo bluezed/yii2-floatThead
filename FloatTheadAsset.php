@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class FloatTheadAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/floatthead/dist';
+    public $sourcePath = '@bower/floatThead/dist';
     public $js = ['jquery.floatThead.min.js'];
     public $depends = [
         'yii\web\JqueryAsset',
